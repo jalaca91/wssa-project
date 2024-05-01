@@ -3,6 +3,14 @@ This repository is part of the module of the same name of the HDip in Data Analy
 
 The project is an example of a Country List application implemented using Python and Flask for the server side (backend) and HTML for the user interface (frontend).  
 
+The SQL database uses the following table:
+
+![Table of countries](images/countries_table.png)  
+
+With the following structure: 
+
+![DESCRIBE](images\describedb.png)
+
 This project is based on the Books example described in the course notes.
 To see the original material, access the following link: 
 https://github.com/andrewbeattycourseware/wsaa-course-material
@@ -26,13 +34,14 @@ https://github.com/andrewbeattycourseware/wsaa-course-material
 5) A `countryDAO.py` to provide an abstract interface for interacting with the sql database
 6) A Python file entitled `country_server.py` which runs the Flask server created for the project.
 7) A `dbconfig.py` that seves as link server to database
+8) A `countries_db.sql` file which contains the SQL database
 
 ## Project functionality and description
 
-The manin objetive of this project is to create a server application on Flask that has a RESTful API.  
-The application links to database tables and throuh web pages performs CRUD operations on the data.  
+The main goal of this project is to create a server application on Flask that has a RESTful API.  
+The application links to database tables and throuhg web pages performs CRUD operations on the data.  
 
-The operations that can be realized are:
+The operations that can be carried out are:
 
 1) Create a new country entry (Create) 
 2) View a list of countries (Read)
