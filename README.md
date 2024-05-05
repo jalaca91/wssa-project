@@ -7,10 +7,6 @@ The SQL database uses the following table:
 
 ![Table of countries](images/countries_table.png)  
 
-With the following structure: 
-
-![DESCRIBE](images\describedb.png)
-
 This project is based on the Books example described in the course notes.
 To see the original material, access the following link: 
 https://github.com/andrewbeattycourseware/wsaa-course-material
@@ -40,6 +36,10 @@ https://github.com/andrewbeattycourseware/wsaa-course-material
 
 The main goal of this project is to create a server application on Flask that has a RESTful API.  
 The application links to database tables and throuhg web pages performs CRUD operations on the data.  
+
+The database is structured as follows
+
+![DESCRIBE](images\describedb.png)
 
 The operations that can be carried out are:
 
