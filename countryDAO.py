@@ -90,16 +90,6 @@ class CountriesDAO:
         print("delete done")
         self.closeAll()
 
-    # Function to convert a record to a dict object
-    def convertToDict(self,result):
-        attributes = ["ID","country","capital","continent","currency"]
-        countryDict = {}
-        if result:
-            for i, attribute in enumerate(attributes):
-                value = result[i]
-                countryDict[attribute]= value
-            return countryDict
-
     # Function to find a specific record by id
     def findById(self,id):
         cursor = self.getCursor()
@@ -110,6 +100,15 @@ class CountriesDAO:
         self.closeAll()
         return self.convertToDict(result)
 
+    # Function to convert a record to a dict object
+    def convertToDict(self,result):
+        attributes = ["ID","country","capital","continent","currency"]
+        countryDict = {}
+        if result:
+            for i, attribute in enumerate(attributes):
+                value = result[i]
+                countryDict[attribute]= value
+            return countryDict
 
 # creates a new class
 countryDAO = CountriesDAO()    

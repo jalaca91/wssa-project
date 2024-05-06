@@ -37,10 +37,6 @@ https://github.com/andrewbeattycourseware/wsaa-course-material
 The main goal of this project is to create a server application on Flask that has a RESTful API.  
 The application links to database tables and throuhg web pages performs CRUD operations on the data.  
 
-The database is structured as follows
-
-![DESCRIBE](images\describedb.png)
-
 The operations that can be carried out are:
 
 1) Create a new country entry (Create) 
