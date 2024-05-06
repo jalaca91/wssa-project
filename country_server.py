@@ -8,7 +8,7 @@ app = Flask(__name__, static_url_path="", static_folder="static")
 
 @app.route("/")
 def index():
-    return send_file("countryViewer.html")
+    return send_file("static/countryViewer.html")
 
 # Create operation
 # curl -X POST -H "Content-Type: application/json" -d "{\"country\":\"TestCountry\", \"capital\":\"TestCapital\", \"continent\":\"TestContinent\", \"currency\":\"TestCurrency\"}" http://127.0.0.1:5000/countries
