@@ -1,4 +1,4 @@
-# WSSA-Project
+# Web services and applications-Project
 This repository is part of the module of the same name of the HDip in Data Analysis of ATU Galway and contains the final project.  
 
 The project is an example of a Country List application implemented using Python and Flask for the server side (backend) and HTML for the user interface (frontend).  
